@@ -47,6 +47,10 @@ var CACHED_URLS = [
     BASE_PATH + 'material.js',
     // Manifest
     BASE_PATH + 'manifest.json',
+    BASE_PATH + 'appimages/event-default.png',
+    BASE_PATH + 'scripts.js',
+    BASE_PATH + 'events.json',
+
   // CSS and fonts
     'https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&lang=en',
     'https://fonts.googleapis.com/icon?family=Material+Icons',
@@ -90,6 +94,33 @@ self.addEventListener('fetch', function(event) {
         return caches.match('offline-map.js');
       })
     );
+      // Handle requests for events JSON file
+  } else if (requestURL.pathname === BASE_PATH + 'events.json') {
+    event.respondWith(
+      caches.open(CACHE_NAME).then(function(cache) {
+        return fetch(event.request).then(function(networkResponse) {
+          cache.put(event.request, networkResponse.clone());
+          return networkResponse;
+        }).catch(function() {
+          return caches.match(event.request);
+        });
+      })
+    );
+  // Handle requests for event images.
+  } else if (requestURL.pathname.includes('/eventsimages/')) {
+    event.respondWith(
+      caches.open(CACHE_NAME).then(function(cache) {
+        return cache.match(event.request).then(function(cacheResponse) {
+          return cacheResponse||fetch(event.request).then(function(networkResponse) {
+            cache.put(event.request, networkResponse.clone());
+            return networkResponse;
+          }).catch(function() {
+            return cache.match('appimages/event-default.png');
+          });
+        });
+      })
+    );
+
   } else if (
     CACHED_URLS.includes(requestURL.href) ||
     CACHED_URLS.includes(requestURL.pathname)
