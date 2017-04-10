@@ -7,14 +7,14 @@ fetch("events.json")
                 <div class="cardPicture">
                     <img class="article-image" src="${event.picture}" border="0" alt="">
                 </div>
-                <div class="mdl-card__title">
-                    <h2 class="mdl-card__title-text">${event.heading}</h2>
+                <div class="">
+                    <h2 class="cardHeader">${event.heading}</h2>
                 </div>
                 <div class="cardText">
                     ${event.text}
                 </div>
                 <div class="cardLink">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="${event.link}" data-upgraded=",MaterialButton,MaterialRipple">Read more<span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
+                    <a class="cardButton" href="${event.link}" >Read more<span class=""><span class=""></span></span></a>
                 </div>
             </div>`;
         }).join("\n");

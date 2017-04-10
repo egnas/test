@@ -6,23 +6,42 @@
 .mainCard
 {
   width: 600px;
-  background-color: green;
+  height: 150px;
+  background-color: #40798C;
   margin-bottom: 20px;
-
+  position:relative;
+  box-shadow: 10px 10px 5px #888888;
 }
 
 .cardPicture
 {
   float: left;
-  vertical-align: middle;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-right: 30px;
 }
 
 .cardText
 {
   text-align: left;
+  margin-left: 30px;
+  padding-right: 10px;
 }
 
 .cardLink
 {
-  float: right;
+  position:absolute;
+  bottom:0;
+  right: 0;
+  padding: 10px;
+}
+
+.cardButton
+{
+  text-decoration: none;
+}
+
+.cardButton:hover
+{
+  background-color:#70A9A1;
 }
