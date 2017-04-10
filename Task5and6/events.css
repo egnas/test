@@ -2,4 +2,11 @@
 {
   width: 600px;
   background-color: green;
+  margin-bottom: 20px;
+
+}
+
+.cardPicture
+{
+  float: left;
 }
