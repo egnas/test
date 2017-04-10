@@ -1,7 +1,7 @@
 .events
 {
+  display: inline-block;
   margin: 0 auto;
-  align-items: center;
 }
 
 .mainCard
