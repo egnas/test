@@ -1,9 +1,3 @@
-.events
-{
-  display: inline-block;
-  margin: 0 auto;
-}
-
 .mainCard
 {
   width: 600px;
@@ -12,6 +6,7 @@
   margin-bottom: 20px;
   position:relative;
   box-shadow: 10px 10px 5px #888888;
+  margin: 0 auto;
 }
 
 .cardPicture
