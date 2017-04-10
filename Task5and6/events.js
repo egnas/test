@@ -7,7 +7,7 @@ fetch("events.json")
                 <div class="cardPicture">
                     <img class="article-image" src="${event.picture}" border="0" alt="">
                 </div>
-                <div class="">
+                <div class="cardHead">
                     <h2 class="cardHeader">${event.heading}</h2>
                 </div>
                 <div class="cardText">
