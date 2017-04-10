@@ -4,7 +4,7 @@ fetch("events.json")
     }).then(events => {
         const eventsHTML = events.map(event => {
             return `<div class="mainCard">
-                <div class="mdl-card__media">
+                <div class="cardPicture">
                     <img class="article-image" src="${event.picture}" border="0" alt="">
                 </div>
                 <div class="mdl-card__title">
