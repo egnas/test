@@ -3,7 +3,7 @@ fetch("events.json")
         return response.json();
     }).then(events => {
         const eventsHTML = events.map(event => {
-            return `<div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+            return `<div class="mainCard">
                 <div class="mdl-card__media">
                     <img class="article-image" src="${event.picture}" border="0" alt="">
                 </div>
