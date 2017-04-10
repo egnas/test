@@ -10,10 +10,10 @@ fetch("events.json")
                 <div class="mdl-card__title">
                     <h2 class="mdl-card__title-text">${event.heading}</h2>
                 </div>
-                <div class="mdl-card__supporting-text">
+                <div class="cardText">
                     ${event.text}
                 </div>
-                <div class="mdl-card__actions mdl-card--border">
+                <div class="cardLink">
                     <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="${event.link}" data-upgraded=",MaterialButton,MaterialRipple">Read more<span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
                 </div>
             </div>`;

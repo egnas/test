@@ -10,3 +10,13 @@
 {
   float: left;
 }
+
+.cardText
+{
+  text-align: left;
+}
+
+.cardLink
+{
+  float: right;
+}
