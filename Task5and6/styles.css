@@ -36,13 +36,18 @@ nav{
 
 .button
 {
-  background-color: #7F0000;
+  background-color: #70A9A1;
   color: black;
   padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
   font-family: 'Montserrat', sans-serif;
+}
+
+.button:hover
+{
+  background-color: #40798C;
 }
 
 .button-links
