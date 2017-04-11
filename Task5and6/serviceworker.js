@@ -3,7 +3,7 @@ var CACHE_NAME = 'gih-cache-v6';
 var CACHED_URLS = [
     // Our HTML
     BASE_PATH + 'Task5and6/main.html',
-    BASE_PATH + 'Task5and6/new.html',
+    BASE_PATH + 'Task5and6/news.html',
     BASE_PATH + 'Task5and6/registration.html',
 
     // Images for favicons
