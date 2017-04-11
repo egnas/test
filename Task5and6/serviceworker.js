@@ -15,7 +15,7 @@ var CACHED_URLS = [
 
     //Images for page
     BASE_PATH + 'Task5and6/images/offlinemap.jpg',
-    BASE_PATH + 'Task5and6/images/books.png',
+    BASE_PATH + 'Task5and6/images/books.jpg',
     // BASE_PATH + 'Task5and6/images/jack.jpg',
     // BASE_PATH + 'Task5and6/images/paddy.jpg',
     BASE_PATH + 'Task5and6/images/fav-logo.ico',
@@ -47,7 +47,7 @@ var CACHED_URLS = [
     BASE_PATH + 'material.js',
     // Manifest
     BASE_PATH + 'manifest.json',
-    BASE_PATH + 'appimages/event-default.png',
+    // BASE_PATH + 'appimages/event-default.png',
     BASE_PATH + 'scripts.js',
     BASE_PATH + 'events.json',
 
