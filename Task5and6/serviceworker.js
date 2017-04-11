@@ -1,8 +1,8 @@
-var BASE_PATH = '/test/Task5and6/';
+var BASE_PATH = '/test/';
 var CACHE_NAME = 'gih-cache-v6';
 var CACHED_URLS = [
     // Our HTML
-    BASE_PATH + 'first.html',
+    BASE_PATH + 'main.html',
 
     // Images for favicons
     BASE_PATH + 'Task5and6/images/android-logo36x36.png',
@@ -72,12 +72,12 @@ self.addEventListener('install', function(event) {
 self.addEventListener('fetch', function(event) {
   var requestURL = new URL(event.request.url);
   // Handle requests for index.html
-  if (requestURL.pathname === BASE_PATH + 'first.html') {
+  if (requestURL.pathname === BASE_PATH + 'main.html') {
     event.respondWith(
       caches.open(CACHE_NAME).then(function(cache) {
-        return cache.match('first.html').then(function(cachedResponse) {
-          var fetchPromise = fetch('first.html').then(function(networkResponse) {
-            cache.put('first.html', networkResponse.clone());
+        return cache.match('main.html').then(function(cachedResponse) {
+          var fetchPromise = fetch('main.html').then(function(networkResponse) {
+            cache.put('main.html', networkResponse.clone());
             return networkResponse;
           });
           return cachedResponse || fetchPromise;
