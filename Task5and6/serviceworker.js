@@ -51,6 +51,8 @@ var CACHED_URLS = [
     BASE_PATH + 'manifest.json',
     // BASE_PATH + 'appimages/event-default.png',
     BASE_PATH + 'scripts.js',
+    BASE_PATH + 'events.js',
+    BASE_PATH + 'events.css',
     BASE_PATH + 'events.json',
 
   // CSS and fonts
