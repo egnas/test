@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<title>Team GB</title>
+<title>Home</title>
 <link type="text/css" href="styles.css" rel="stylesheet" />
+<link type="text/css" href="burger.css" rel="stylesheet" />
 <link rel="apple-touch-icon" sizes="57x57" href="images/apple-logo57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="images/apple-logo60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="images/apple-logo72x72.png">
@@ -22,16 +23,29 @@
   <nav>
     <button class="button"><a class="button-links" href="main.html">Home</a></button>
     <button class="button"><a class="button-links" href="news.html">News</a></button>
+    <button class="button"><a class="button-links" href="registration.html">Registration</a></button>
   </nav>
+
+  <!-- <ul class="navigation">
+    <li class="nav-item"><a href="#">Home</a></li>
+    <li class="nav-item"><a href="#">Gallery</a></li>
+    <li class="nav-item"><a href="#">Volunteering</a></li>
+    <li class="nav-item"><a href="#">News</a></li>
+    <li class="nav-item"><a href="#">About Us</a></li>
+  </ul>
+
+  <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+  <label for="nav-trigger"></label> -->
+
 		<div class="mainDiv">
       <header>
       </header>
-      <h1>Team GB</h1>
+      <h1>My Portfolio Page</h1>
       <p class="article">Sed massa ex, iaculis nec faucibus quis, maximus vitae enim. Suspendisse cursus, metus sed scelerisque suscipit, arcu erat convallis orci, at dapibus justo elit lobortis augue. Fusce ut erat lectus. Cras ac placerat ante, sed vehicula lectus. Vivamus laoreet at odio in accumsan. Nunc sodales, augue dapibus tempor laoreet, massa nisl tristique dolor, a molestie ipsum nulla a augue. Morbi sollicitudin eget metus finibus vestibulum. Cras at neque at augue tristique consectetur. Aenean ullamcorper, enim sit amet laoreet fermentum, augue dui condimentum lacus, vel efficitur mi tortor a lectus. Mauris orci erat, pretium sed velit ac, malesuada hendrerit mi. Fusce pulvinar ornare blandit. Sed vulputate egestas erat, quis lobortis purus varius ac. Nulla suscipit velit nisi, vel consectetur tellus iaculis eget. Proin pretium metus odio. Nullam fringilla augue vitae sapien mollis tempor.</p>
       <picture>
         <source media="(min-width: 650px)" srcset="images/books2x.jpg">
         <source media="(min-width: 465px)" srcset="images/books3x.jpg">
-        <img src="images/books1x.jpg" alt="Books" style="width:auto;">
+        <img class="books" src="images/books1x.jpg" alt="Books" style="width:auto;">
       </picutre>
 
       <div id="map-container"></div>
@@ -51,7 +65,7 @@
         <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGQ5IbnLxrOIOxmmJ6hZyqea70qlxTKAo&callback=initMap">
      </script>
-          <p class="article">Sed massa ex, iaculis nec faucibus quis, maximus vitae enim. Suspendisse cursus, metus sed scelerisque suscipit, arcu erat convallis orci, at dapibus justo elit lobortis augue. Fusce ut erat lectus. Cras ac placerat ante, sed vehicula lectus. Vivamus laoreet at odio in accumsan. Nunc sodales, augue dapibus tempor laoreet, massa nisl tristique dolor, a molestie ipsum nulla a augue. Morbi sollicitudin eget metus finibus vestibulum. Cras at neque at augue tristique consectetur. Aenean ullamcorper, enim sit amet laoreet fermentum, augue dui condimentum lacus, vel efficitur mi tortor a lectus. Mauris orci erat, pretium sed velit ac, malesuada hendrerit mi. Fusce pulvinar ornare blandit. Sed vulputate egestas erat, quis lobortis purus varius ac. Nulla suscipit velit nisi, vel consectetur tellus iaculis eget. Proin pretium metus odio. Nullam fringilla augue vitae sapien mollis tempor.</p>
+          <p class="article" id="botArticle">Sed massa ex, iaculis nec faucibus quis, maximus vitae enim. Suspendisse cursus, metus sed scelerisque suscipit, arcu erat convallis orci, at dapibus justo elit lobortis augue. Fusce ut erat lectus. Cras ac placerat ante, sed vehicula lectus. Vivamus laoreet at odio in accumsan. Nunc sodales, augue dapibus tempor laoreet, massa nisl tristique dolor, a molestie ipsum nulla a augue. Morbi sollicitudin eget metus finibus vestibulum. Cras at neque at augue tristique consectetur. Aenean ullamcorper, enim sit amet laoreet fermentum, augue dui condimentum lacus, vel efficitur mi tortor a lectus. Mauris orci erat, pretium sed velit ac, malesuada hendrerit mi. Fusce pulvinar ornare blandit. Sed vulputate egestas erat, quis lobortis purus varius ac. Nulla suscipit velit nisi, vel consectetur tellus iaculis eget. Proin pretium metus odio. Nullam fringilla augue vitae sapien mollis tempor.</p>
 		</div>
     <footer>
       <div class="footerMain">
