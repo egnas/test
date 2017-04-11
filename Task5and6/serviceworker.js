@@ -2,7 +2,7 @@ var BASE_PATH = '/test/';
 var CACHE_NAME = 'gih-cache-v6';
 var CACHED_URLS = [
     // Our HTML
-    BASE_PATH + 'main.html',
+    BASE_PATH + 'Task5and6/main.html',
 
     // Images for favicons
     BASE_PATH + 'Task5and6/images/android-logo36x36.png',
