@@ -1,4 +1,4 @@
-var BASE_PATH = '/test/';
+var BASE_PATH = '/test/Task5and6/';
 var CACHE_NAME = 'gih-cache-v6';
 var CACHED_URLS = [
     // Our HTML
@@ -15,13 +15,13 @@ var CACHED_URLS = [
 
     //Images for page
     BASE_PATH + 'Task5and6/images/offlinemap.jpg',
-    BASE_PATH + 'Task5and6/images/dino.png',
-    BASE_PATH + 'Task5and6/images/jack.jpg',
-    BASE_PATH + 'Task5and6/images/paddy.jpg',
-    BASE_PATH + 'Task5and6/images/favicon.ico',
-    BASE_PATH + 'Task5and6/images/favicon-16x16.png',
-    BASE_PATH + 'Task5and6/images/favicon-32x32.png',
-    BASE_PATH + 'Task5and6/images/favicon-96x96.png',
+    BASE_PATH + 'Task5and6/images/books.png',
+    // BASE_PATH + 'Task5and6/images/jack.jpg',
+    // BASE_PATH + 'Task5and6/images/paddy.jpg',
+    BASE_PATH + 'Task5and6/images/fav-logo.ico',
+    BASE_PATH + 'Task5and6/images/fav-logo16x16.png',
+    BASE_PATH + 'Task5and6/images/fav-logo32x32.png',
+    BASE_PATH + 'Task5and6/images/fav-logo96x96.png',
     BASE_PATH + 'Task5and6/images/ms-logo70x70.png',
     BASE_PATH + 'Task5and6/images/ms-logo144x144.png',
     BASE_PATH + 'Task5and6/images/ms-logo150x150.png',
