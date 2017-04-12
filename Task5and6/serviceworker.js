@@ -46,7 +46,7 @@ var CACHED_URLS = [
     // BASE_PATH + 'eventsimages/example-work09.jpg',
     // JavaScript
     BASE_PATH + 'Task5and6/offline-map.js',
-    BASE_PATH + 'Task5and6/material.js',
+    // BASE_PATH + 'Task5and6/material.js',
     // Manifest
     BASE_PATH + 'Task5and6/manifest.json',
     // BASE_PATH + 'appimages/event-default.png',
