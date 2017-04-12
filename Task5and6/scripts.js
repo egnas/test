@@ -7,4 +7,4 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-document.getElementById('gm-fullscreen-control').alt = "Google maps";
+document.getElementById('map-container').alt = "Google maps";
