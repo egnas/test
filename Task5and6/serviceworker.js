@@ -45,21 +45,21 @@ var CACHED_URLS = [
     // BASE_PATH + 'eventsimages/example-work08.jpg',
     // BASE_PATH + 'eventsimages/example-work09.jpg',
     // JavaScript
-    BASE_PATH + 'offline-map.js',
-    BASE_PATH + 'material.js',
+    BASE_PATH + 'Task5and6/offline-map.js',
+    BASE_PATH + 'Task5and6/material.js',
     // Manifest
-    BASE_PATH + 'manifest.json',
+    BASE_PATH + 'Task5and6/manifest.json',
     // BASE_PATH + 'appimages/event-default.png',
-    BASE_PATH + 'scripts.js',
-    BASE_PATH + 'events.js',
-    BASE_PATH + 'events.css',
-    BASE_PATH + 'events.json',
+    BASE_PATH + 'Task5and6/scripts.js',
+    BASE_PATH + 'Task5and6/events.js',
+    BASE_PATH + 'Task5and6/events.css',
+    BASE_PATH + 'Task5and6/events.json',
 
   // CSS and fonts
     'https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&lang=en',
     'https://fonts.googleapis.com/icon?family=Material+Icons',
-    BASE_PATH + 'min-style.css',
-    BASE_PATH + 'styles.css'
+    // BASE_PATH + 'min-style.css',
+    BASE_PATH + 'Task5and6/styles.css'
 ];
 
 var googleMapsAPIJS = 'https://maps.googleapis.com/maps/api/js?key=45b3aaa612fd4093bd7b28986c66bc97&callback=initMap';
