@@ -6,6 +6,7 @@ html
 
 body{
   margin: 0 auto;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC) repeat;
   background-color: #40798C;
   top: 0;
 }
@@ -34,7 +35,7 @@ nav{
   text-align: center;
 }
 
-.button
+/*.button
 {
   background-color: #70A9A1;
   color: black;
@@ -43,17 +44,26 @@ nav{
   border: none;
   cursor: pointer;
   font-family: 'Montserrat', sans-serif;
-}
-
-.button:hover
-{
-  background-color: #40798C;
-}
+}*/
 
 .button-links
 {
+  background-color: #70A9A1;
+  color: black;
+  padding: 16px;
+  padding-bottom: 17px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  line-height: 50px;
   text-decoration: none;
-  color: #f5f6f8;
+}
+
+.button-links:hover
+{
+  background-color:#f5f6f8;
 }
 
 footer
