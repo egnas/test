@@ -6,3 +6,5 @@ if ('serviceWorker' in navigator) {
     console.log('Service worker registration failed: ', err);
   });
 }
+
+document.getElementById('gm-fullscreen-control').alt = "Google maps";
