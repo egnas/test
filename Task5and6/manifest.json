@@ -3,6 +3,8 @@
 "short_name": "MyCv",
 "background_color": "#2196F3",
 "theme_color": "#70A9A1",
+"display": "standalone",
+"start_url": "main.html",
 
  "icons": [
   {
